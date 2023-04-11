@@ -15,7 +15,7 @@ import com.google.firebase.messaging.FirebaseMessaging
  * @Accounts
  *      -> https://stackoverflow.com/users/17921670/kamran-khan
  */
-class CallingMasseges {
+class CallingMessages {
     companion object {
         fun setupFCM(context: Context, topic: String) {
             initializeFirebase(context)
